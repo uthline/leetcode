@@ -22,10 +22,11 @@ All given inputs are in lowercase letters a-z.
 
 ### 풀이
 공통 prefix를 찾는 문제.
-List의 첫 단어를 기준 단어로 선정.
-기준 단어를 한글자씩 이터레이션돌면서 모든 string들 특정 자릿 수와 비교한다.
-특정 자리수: d
-기준 단어: word
+아래의 로직으로 풀었다.
+> List의 첫 단어를 기준 단어로 선정.<br>
+> 기준 단어를 한글자씩 이터레이션돌면서 모든 string들 특정 자릿 수와 비교한다.<br>
+> 특정 자리수: d<br>
+> 기준 단어: word
 
 ### 특이사항
 #### 1. List에서 특정 word를 가져올때, 예외처리.
